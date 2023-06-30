@@ -161,30 +161,17 @@ html {
     font-size: 20px;
 }
 
-.myslider {
+.mysliderlist{
+    position: relative;
     display: none;
 }
-
-#slider {
-    position: relative;
-    margin-top: 46px;  /* khong cho silder su dung khoang trang cua header*/
-    padding-top: 50%; /* giu kich thuoc luon dung ty le anh/ backgroud img do nen anh tu padding vao. len f8 xem phan ky thuat nang cao  */
-    background: url("../img/silder1/chicago.jpg") top center / cover no-repeat; /* vi tri tuong doi cua anh*/
+.imgslider{
+    width: 100%;
 }
-#slider2 {
-    position: relative;
-    margin-top: 46px; 
-    padding-top: 50%; 
-    background: url("../img/silder1/la.jpg") top center / cover no-repeat; 
+.slider {
+    margin-top: 46px;  
 }
-#slider3 {
-    position: relative;
-    margin-top: 46px; 
-    padding-top: 50%; 
-    background: url("../img/silder1/ny.jpg") top center / cover no-repeat; 
-}
-
-.myslider .text-content{
+.mysliderlist .text-content{
     position: absolute;
     bottom: 48px;
     color: #fff;
@@ -192,15 +179,15 @@ html {
     text-align: center;  /* can giua noi dung trong the chua no*/
 }
 
-.myslider .text-heading{
+.mysliderlist .text-heading{
     font-weight: 500; /* do day cua chu */
     font-size: 24px;
 }
 
-.myslider .text-description{
+.mysliderlist .text-description{
     font-size: 15px;
     margin-top: 25px;
-    text-shadow: 0 0 15px #000;  /* bong chu*/
+    text-shadow: 0 0 1px #000;  /* bong chu*/
 }
 
 #content {

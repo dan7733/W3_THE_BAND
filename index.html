@@ -44,26 +44,33 @@
             </div>
             <!-- end: search button pc,tablet-->
         </div>
+        <!-- Slider start -->
+        <div class="slider">
+            <div class="mysliderlist">
+                <img class="imgslider" src="./assets/img/silder1/chicago.jpg">
+                <div class="text-content">
+                    <h2 class="text-heading">Chicago</h2>
+                    <div class="text-description">Thank you, Chicago - A night we won't forget.</div>
+                </div>
+            </div>
 
-        <div id="slider" class="myslider">
-            <div class="text-content">
-                <h2 class="text-heading">Chicago</h2>
-                <div class="text-description">Thank you, Chicago - A night we won't forget.</div>
+            <div class="mysliderlist">
+                <img class="imgslider" src="./assets/img/silder1/la.jpg">
+                <div class="text-content">
+                    <h2 class="text-heading">Los Angeles</h2>
+                    <div class="text-description">We had the best time playing at Venice Beach!</div>
+                </div>
             </div>
-        </div>
-        <div id="slider2" class="myslider">
-            <div class="text-content">
-                <h2 class="text-heading">Los Angeles</h2>
-                <div class="text-description">We had the best time playing at Venice Beach!</div>
-            </div>
-        </div>
-        <div id="slider3" class="myslider">
-            <div class="text-content">
-                <h2 class="text-heading">New York</h2>
-                <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
-            </div>
-        </div>
 
+            <div class="mysliderlist">
+                <img class="imgslider" src="./assets/img/silder1/ny.jpg">
+                <div class="text-content">
+                    <h2 class="text-heading">New York</h2>
+                    <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider end -->
         <div id="content">
             <!-- THE BAND -->
             <div id="band" class="content-section">
@@ -223,7 +230,7 @@
         carousel();
         function carousel() {
         var i;
-        var x = document.getElementsByClassName("myslider");
+        var x = document.getElementsByClassName("mysliderlist");
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
         }
